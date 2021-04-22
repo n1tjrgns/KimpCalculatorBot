@@ -49,7 +49,7 @@ public class UpbitCoinController {
 
 
             System.out.println("result.get(BTC-NMR) = " + result.get("body").toString().charAt(1));
-
+            System.out.println("test");
 
             ObjectMapper mapper = new ObjectMapper();
             jsonInString = mapper.writeValueAsString(resultList.getBody());
